@@ -133,6 +133,10 @@ li img {
 	padding-bottom: 5px;
 }
 
+.children-list li img {
+	margin-left: 12px;
+}
+
 .children-list h2 {
 	margin-top:0;
 	padding-top: 10px;
