@@ -217,6 +217,12 @@ span p {
 	padding-right: 10px;
 }
 
+.row .child-single .personal {
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .first h2 {
 	text-align:center;
 	display:block;
