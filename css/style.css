@@ -112,8 +112,8 @@ h2 {
 .row .children-list ul li {
 	list-style:none;
 	height: 68px;
-	width:100%;
-	margin: 10px 0px;
+	width:90%;
+	margin: 10px auto;
 }
 
 .row .children-list ul li div {
@@ -164,7 +164,7 @@ li img {
 .children-list .move-on-button {
 	color:#333;
 	margin-top:-26px;
-	margin-right: 12px;
+	/*margin-right: 12px;*/
 }
 
 .move-on-button:hover {
@@ -283,10 +283,15 @@ span p {
 .row .child-single ul li .item {
 	width:31%;
 	height: 100px;
-	background-color:red;
 	float:left;
 	margin: 3px;
 	border:2px solid #5aa097;
+}
+
+.row .child-single ul li .item img {
+	height:100%;
+	width:100%;
+	padding:0;
 }
 
 .shop-more-surround {
