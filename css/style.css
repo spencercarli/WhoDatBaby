@@ -1,20 +1,49 @@
+@font-face {
+	font-family: Station;
+	src: url(../fonts/Station.ttf);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, a {
+	font-family: Station, "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
 .header {
 	border-bottom: 1px solid #929292;
-	height: 40px;
 	width:100%;
-	max-width: 500px;
+	max-width: 600px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
+	background-color:#e6e6e6;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
+
+.add-button {
+	background-color:#c9a3eb;
+	padding: 3px 11px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 23px;
+	cursor:pointer;
+	line-height: 41px;
+	padding-top: 8px;
+}
+
+.add-button:hover {
+	background-color:#BB86EB;
+	color:#fff;
+	text-decoration: none;
+}
+
 .friend-name {
 	
 }
 
 .row .friend-name ul {
 	padding-left: 0;
-	padding-left: 10px;
-	padding-right: 10px;
 	margin-left: 16px;
 	margin-right: 16px;
 	list-style:none;
@@ -29,7 +58,7 @@
 .row .friend-name ul li div {
 	width:100%;
 	height: 68px;
-	max-width:500px;
+	max-width:590px;
 	margin-left:auto;
 	margin-right:auto;
 	border-bottom: 1px solid #929292;
@@ -62,7 +91,7 @@ h2 {
 	height:30px;
 	float:right;
 	font-size:36px;
-	margin-top: 6px;
+	margin-top: 13px;
 	color:#333;
 }
 
@@ -71,29 +100,151 @@ h2 {
 	color:#333;
 }
 
+/* LIST OF CHILDREN */
+.children-list ul {
+	padding-left:0;
+}
+
+.btn-primary {
+	margin-left: 12px;
+}
+
+.row .children-list ul li {
+	list-style:none;
+	height: 68px;
+	width:100%;
+	margin: 10px 0px;
+}
+
+.row .children-list ul li div {
+	width:100%;
+	height: 68px;
+	max-width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	/*border-bottom: 1px solid #929292;*/
+	border-radius: 5px;
+}
+
+li img {
+	float:left;
+	width:57px;
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+
+.children-list h2 {
+	margin-top:0;
+	padding-top: 10px;
+	line-height: 39px;
+	display:inline;
+	margin-left:10px;
+}
+
+.max-width {
+	width:100%;
+	max-width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.row .children-list ul .parent {
+	text-align:center;
+	height: 36px;
+}
+
+.row .children-list ul .parent div {
+	height:36px;
+}
+
+.children-list .move-on-button {
+	color:#333;
+	margin-top:-26px;
+	margin-right: 12px;
+}
+
+.move-on-button:hover {
+	text-decoration:none;
+	color:#333;
+}
+
+.male {
+	background-color:#d6f8ff;
+}
+
+.female {
+	background-color:#ffd7f9;
+}
+
+.female span p {
+	color:#f88eb8;
+}
+
+.male span p {
+	color: #80b3ff;
+}
+
+span p {
+	margin:0;
+	margin-left: 25px;
+	display:inline;
+	font-size:16px;
+}
+
 
 /* SINGLE CHILD */
+.row .child-single {
+	width:100%;
+	max-width:600px;
+	background-color: #D6F8FF;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 22px;
+}
+
 .row .child-single ul {
 	padding-left: 0;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-left: 16px;
-	margin-right: 16px;
 	list-style:none;
 }
 
 .row .child-single ul li {
 	list-style:none;
-	height: 68px;
 	width:100%;
-	padding-left:40px;
+	max-width:600px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.first h2 {
+	text-align:center;
+	display:block;
+	line-height:36px;
 }
 
 .row .child-single ul .first {
 	list-style:none;
-	height: 68px;
 	width:100%;
 	padding:0;
+}
+
+.birth-info {
+	color:#808080;
+	font-size: 23px;
+	margin-left: 82px !important;
+}
+
+.birth-info p {
+	margin-bottom:0;
+}
+
+.male {
+	background-color:#d6f8ff;
+}
+
+.female {
+	background-color:#ffd7f9;
 }
 
 .row .child-single ul li .first {
@@ -102,12 +253,54 @@ h2 {
 
 .row .child-single ul li div {
 	width:100%;
-	max-width:500px;
+	max-width:590px;
 	margin-left:auto;
 	margin-right:auto;
-	border-bottom: 1px solid #929292;
 }
 
+.notes {
+	margin-top: 13px;
+}
+
+.notes p b {
+	color:#000;
+}
+
+.notes p {
+	color:#1f5a82;
+}
+
+.row .child-single ul li .item {
+	width:31%;
+	height: 100px;
+	background-color:red;
+	float:left;
+	margin: 3px;
+	border:2px solid #5aa097;
+}
+
+.shop-more-surround {
+	width: 100%;
+	text-align:center;
+}
+
+.shop-more {
+	width: 100%;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	background-color:#369c9f;
+	color:white;
+	padding:10px 40px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.shop-more:hover {
+	color:white;
+	text-decoration: none;
+	background-color:#53BFC2;
+}
 
 
 

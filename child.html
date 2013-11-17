@@ -1,8 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Who Dat Baby?</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+    <!-- Run in full-screen mode. -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Make the status bar black with white text. -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Customize home screen title. -->
+    <meta name="apple-mobile-web-app-title" content="KnowDatBaby">
+
+     <!-- iOS 7 iPhone (retina) -->
+     <link href="img/apple-touch-icon-120x120.png"
+     sizes="120x120"
+     rel="apple-touch-icon">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -15,37 +30,67 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
     <div class="row header">
       <a href="children.html" type="button" class="btn btn-primary">< Back </a> <!-- Goes to list of children -->
     </div>
     <div class="row">
-    <div class="child-single">
-      <ul>
-        <li class="first">
-          <div>
-            <img src="http://www.clker.com/cliparts/5/9/4/c/12198090531909861341man%20silhouette.svg.med.png">
-            <span>
-              <h2>Kids Name</h2>
-            </span>
-          </div>
-        </li>
+      <div class="child-single male">
+        <ul>
+          <li class="first">
+              <h2>George Alexander Louis</h2>
+          </li>
 
-        <li>
-          <div>
-            <p><b>Age:</b></p>
-            <p><b>Birthday:</b></p>
-            <p><b>Notes:</b></p>
-          </div>
-        </li>
-      </ul>
-    </div>
-    </div>
+          <li class="personal">
+            <img src="http://www.clker.com/cliparts/5/9/4/c/12198090531909861341man%20silhouette.svg.med.png">
+            <div class="birth-info">
+              <p>5 yrs</p>
+              <p>July 22, 2013</p>
+            </div>
+          </li>
+
+          <li class="notes">
+            <p><b>Notes: </b> He likes croissants and shiny things.</p>
+          </li>
+
+          <li class="buy">
+            <h4>Gift Ideas: </h4>
+            <div class="row">
+              <div class="item">
+
+              </div>
+
+              <div class="item">
+
+              </div>
+
+              <div class="item">
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="item">
+
+              </div>
+
+              <div class="item">
+
+              </div>
+
+              <div class="item">
+
+              </div>
+            </div>
+            <div class="row shop-more-surround">
+              <a href="javascript:alert('not yet implement');" class="shop-more">Shop More Items</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <!-- // <script src="js/script.js"></script> -->
   </body>
 </html>
